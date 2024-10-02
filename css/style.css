@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family:Roboto;
+    font-family: "Roboto", sans-serif;
 }
 
 .first-section {
@@ -18,7 +18,6 @@ body {
 
 .links {
     display: flex;
-    border: 1px solid black;
     width: 400px;
     justify-content: space-between;
 }
@@ -39,9 +38,10 @@ body {
     display:flex;
     flex-direction: column;
     width: 420px;
-    height: 150px;
+    min-height: 341px;
     align-items: flex-start;
     gap: 50px;
+    flex-shrink:0;
 }
 
 .right-side {
@@ -67,5 +67,8 @@ body {
 
 button {
     background-color: #3882f6;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #f9faf8;
 }
 
