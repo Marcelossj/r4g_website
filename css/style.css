@@ -180,4 +180,18 @@ button {
     font-weight: 900;
  }
 
+ footer {
+    display: flex;
+    justify-content: center;
+    background-color:#1f2937;
+    height: 100px;
+ }
+
+ .footer-child {
+    margin-top:auto;
+    margin-bottom: auto;
+    color: #f9faf8;
+
+ }
+
  
