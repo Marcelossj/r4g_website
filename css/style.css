@@ -144,3 +144,40 @@ button {
 .autor {
     font-weight:bold;
 }
+
+.fourth-section {
+    display: flex;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+   
+}
+ .container {
+    display: flex;
+    background-color:#3882f6;
+    border-radius: 8px;
+    height: 100px;
+    width: 1000px;
+    justify-content: space-around;
+    align-items: center;
+ }
+
+ .wrapper {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .text, .button {
+    color: #f9faf8;
+ }
+
+ .button#two {
+    border: 2px solid #f9faf8;
+ }
+
+ .text.main {
+    font-size: 20px;
+    font-weight: 900;
+ }
+
+ 
